@@ -1,0 +1,113 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei",arial;
+	font-size: 1.8em;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clear {
+	zoom: 1;
+}
+
+.carcullator-box {
+	width: 430px;
+	-webkit-box-shadow: rgba(0,0,0,.2) 0px 1px 4px 0px;
+	box-shadow: rgba(0,0,0,.2) 0px 1px 4px 0px;
+	padding: 20px;
+	border-radius: 1px;
+	margin: 4% auto;
+}
+
+.show-input {
+  height: 80px;
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: normal;
+  overflow: hidden;
+  overflow-x: auto;  
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.show-input:hover {
+	border: 1px solid #bbb;
+  -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.count > div {
+  display: inline-block;
+  width: 74px;
+  text-align: center;
+  padding :10px;
+  margin: 20px 4px 10px 0;
+  background-color: #ddd;
+}
+
+.count div:hover{
+	background-color: #ddd;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #aaa;
+}
+
+.numbers {
+	display: inline-block;
+}
+
+.number > div {
+	display: inline-block;
+  width: 72px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  background-color: #f9f9f9;
+}
+
+.number div:hover {
+	background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #bbb;
+}
+
+.equal-to {
+	display: inline-block;
+	background-color: #3079ed;
+	border-color: #3079ed;
+	width: 17%;
+	padding: 127px 10px;
+	margin: 10px 6px 10px 9px;
+	text-align: center;
+	vertical-align: top;
+	color: #fff;
+}
+
+.equal-to:hover {
+	background-color: #307CF9;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #1857BB;
+}
+
+.equal-style {
+	border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  border-color: rgb(211,211,211);
+  border-radius: 1px;
+  transition: border-color .2s ease-in-out,background-color .2s, box-shadow .2s;
+}
